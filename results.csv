@@ -1,0 +1,7 @@
+Model,Scorer,N_Clusters,Score,Best_Parameters
+KMeans,silhouette_scorer,4,0.10251024040402607,{'n_clusters': 4}
+MiniBatchKMeans,silhouette_scorer,6,0.10180240181849917,"{'batch_size': 10, 'n_clusters': 6}"
+BisectingKMeans,silhouette_scorer,4,0.10167449685415897,"{'bisecting_strategy': 'biggest_inertia', 'n_clusters': 4}"
+DBSCAN,dbcv_scorer,133,0.46536830701693566,"{'eps': 0.4, 'min_samples': 5}"
+OPTICS,dbcv_scorer,11,0.48406715639734216,"{'min_cluster_size': 20, 'min_samples': 20}"
+AgglomerativeClustering,neg_davies_bouldin_scorer,5,-0.5198421707864503,"{'linkage': 'single', 'n_clusters': 5}"

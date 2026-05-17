@@ -1,0 +1,149 @@
+Grid Searching KMeans
+Fitting 1 folds for each of 7 candidates, totalling 7 fits
+[CV 1/1] END n_clusters=4; calinski_harabasz_scorer: (test=1016.018) dbcv_scorer: (test=-0.955) neg_davies_bouldin_scorer: (test=-2.408) silhouette_scorer: (test=0.103) total time=   8.6s
+[CV 1/1] END n_clusters=5; calinski_harabasz_scorer: (test=873.219) dbcv_scorer: (test=-0.956) neg_davies_bouldin_scorer: (test=-2.484) silhouette_scorer: (test=0.096) total time=   7.4s
+[CV 1/1] END n_clusters=6; calinski_harabasz_scorer: (test=801.073) dbcv_scorer: (test=-0.952) neg_davies_bouldin_scorer: (test=-2.355) silhouette_scorer: (test=0.095) total time=   6.8s
+[CV 1/1] END n_clusters=7; calinski_harabasz_scorer: (test=730.673) dbcv_scorer: (test=-0.954) neg_davies_bouldin_scorer: (test=-2.353) silhouette_scorer: (test=0.091) total time=   6.4s
+[CV 1/1] END n_clusters=8; calinski_harabasz_scorer: (test=681.193) dbcv_scorer: (test=-0.931) neg_davies_bouldin_scorer: (test=-2.342) silhouette_scorer: (test=0.081) total time=   6.1s
+[CV 1/1] END n_clusters=9; calinski_harabasz_scorer: (test=637.932) dbcv_scorer: (test=-0.923) neg_davies_bouldin_scorer: (test=-2.325) silhouette_scorer: (test=0.073) total time=   5.7s
+[CV 1/1] END n_clusters=10; calinski_harabasz_scorer: (test=597.836) dbcv_scorer: (test=-0.920) neg_davies_bouldin_scorer: (test=-2.305) silhouette_scorer: (test=0.068) total time=   5.6s
+
+Grid Searching MiniBatchKMeans
+Fitting 1 folds for each of 21 candidates, totalling 21 fits
+[CV 1/1] END batch_size=10, n_clusters=4; calinski_harabasz_scorer: (test=764.180) dbcv_scorer: (test=-0.956) neg_davies_bouldin_scorer: (test=-2.689) silhouette_scorer: (test=0.091) total time=   9.5s
+[CV 1/1] END batch_size=10, n_clusters=5; calinski_harabasz_scorer: (test=841.762) dbcv_scorer: (test=-0.945) neg_davies_bouldin_scorer: (test=-2.488) silhouette_scorer: (test=0.089) total time=   7.7s
+[CV 1/1] END batch_size=10, n_clusters=6; calinski_harabasz_scorer: (test=741.889) dbcv_scorer: (test=-0.947) neg_davies_bouldin_scorer: (test=-2.657) silhouette_scorer: (test=0.102) total time=   8.5s
+[CV 1/1] END batch_size=10, n_clusters=7; calinski_harabasz_scorer: (test=666.322) dbcv_scorer: (test=-0.953) neg_davies_bouldin_scorer: (test=-2.594) silhouette_scorer: (test=0.070) total time=   6.4s
+[CV 1/1] END batch_size=10, n_clusters=8; calinski_harabasz_scorer: (test=591.404) dbcv_scorer: (test=-0.952) neg_davies_bouldin_scorer: (test=-2.576) silhouette_scorer: (test=0.081) total time=   6.4s
+[CV 1/1] END batch_size=10, n_clusters=9; calinski_harabasz_scorer: (test=458.207) dbcv_scorer: (test=-0.932) neg_davies_bouldin_scorer: (test=-2.618) silhouette_scorer: (test=0.075) total time=   8.2s
+[CV 1/1] END batch_size=10, n_clusters=10; calinski_harabasz_scorer: (test=565.494) dbcv_scorer: (test=-0.913) neg_davies_bouldin_scorer: (test=-2.299) silhouette_scorer: (test=0.073) total time=   6.1s
+[CV 1/1] END batch_size=100, n_clusters=4; calinski_harabasz_scorer: (test=963.071) dbcv_scorer: (test=-0.957) neg_davies_bouldin_scorer: (test=-2.462) silhouette_scorer: (test=0.099) total time=   8.1s
+[CV 1/1] END batch_size=100, n_clusters=5; calinski_harabasz_scorer: (test=856.608) dbcv_scorer: (test=-0.958) neg_davies_bouldin_scorer: (test=-2.553) silhouette_scorer: (test=0.097) total time=   7.2s
+[CV 1/1] END batch_size=100, n_clusters=6; calinski_harabasz_scorer: (test=770.490) dbcv_scorer: (test=-0.956) neg_davies_bouldin_scorer: (test=-2.642) silhouette_scorer: (test=0.096) total time=   6.8s
+[CV 1/1] END batch_size=100, n_clusters=7; calinski_harabasz_scorer: (test=681.577) dbcv_scorer: (test=-0.953) neg_davies_bouldin_scorer: (test=-2.376) silhouette_scorer: (test=0.076) total time=   7.3s
+[CV 1/1] END batch_size=100, n_clusters=8; calinski_harabasz_scorer: (test=525.250) dbcv_scorer: (test=-0.932) neg_davies_bouldin_scorer: (test=-2.592) silhouette_scorer: (test=0.054) total time=   8.1s
+[CV 1/1] END batch_size=100, n_clusters=9; calinski_harabasz_scorer: (test=575.503) dbcv_scorer: (test=-0.920) neg_davies_bouldin_scorer: (test=-2.492) silhouette_scorer: (test=0.071) total time=   6.4s
+[CV 1/1] END batch_size=100, n_clusters=10; calinski_harabasz_scorer: (test=555.934) dbcv_scorer: (test=-0.929) neg_davies_bouldin_scorer: (test=-2.413) silhouette_scorer: (test=0.065) total time=   6.5s
+[CV 1/1] END batch_size=1000, n_clusters=4; calinski_harabasz_scorer: (test=993.115) dbcv_scorer: (test=-0.962) neg_davies_bouldin_scorer: (test=-2.526) silhouette_scorer: (test=0.093) total time=   8.0s
+[CV 1/1] END batch_size=1000, n_clusters=5; calinski_harabasz_scorer: (test=863.977) dbcv_scorer: (test=-0.954) neg_davies_bouldin_scorer: (test=-2.535) silhouette_scorer: (test=0.095) total time=   6.9s
+[CV 1/1] END batch_size=1000, n_clusters=6; calinski_harabasz_scorer: (test=773.068) dbcv_scorer: (test=-0.954) neg_davies_bouldin_scorer: (test=-2.549) silhouette_scorer: (test=0.087) total time=   6.5s
+[CV 1/1] END batch_size=1000, n_clusters=7; calinski_harabasz_scorer: (test=700.061) dbcv_scorer: (test=-0.954) neg_davies_bouldin_scorer: (test=-2.525) silhouette_scorer: (test=0.078) total time=   6.1s
+[CV 1/1] END batch_size=1000, n_clusters=8; calinski_harabasz_scorer: (test=646.737) dbcv_scorer: (test=-0.958) neg_davies_bouldin_scorer: (test=-2.468) silhouette_scorer: (test=0.076) total time=   5.9s
+[CV 1/1] END batch_size=1000, n_clusters=9; calinski_harabasz_scorer: (test=595.284) dbcv_scorer: (test=-0.952) neg_davies_bouldin_scorer: (test=-2.508) silhouette_scorer: (test=0.069) total time=   5.7s
+[CV 1/1] END batch_size=1000, n_clusters=10; calinski_harabasz_scorer: (test=568.723) dbcv_scorer: (test=-0.940) neg_davies_bouldin_scorer: (test=-2.397) silhouette_scorer: (test=0.059) total time=   5.6s
+
+Grid Searching BisectingKMeans
+Fitting 1 folds for each of 14 candidates, totalling 14 fits
+[CV 1/1] END bisecting_strategy=biggest_inertia, n_clusters=4; calinski_harabasz_scorer: (test=972.328) dbcv_scorer: (test=-0.955) neg_davies_bouldin_scorer: (test=-2.469) silhouette_scorer: (test=0.102) total time=   8.7s
+[CV 1/1] END bisecting_strategy=biggest_inertia, n_clusters=5; calinski_harabasz_scorer: (test=836.502) dbcv_scorer: (test=-0.954) neg_davies_bouldin_scorer: (test=-2.697) silhouette_scorer: (test=0.086) total time=   7.8s
+[CV 1/1] END bisecting_strategy=biggest_inertia, n_clusters=6; calinski_harabasz_scorer: (test=738.416) dbcv_scorer: (test=-0.953) neg_davies_bouldin_scorer: (test=-2.880) silhouette_scorer: (test=0.079) total time=   6.9s
+[CV 1/1] END bisecting_strategy=biggest_inertia, n_clusters=7; calinski_harabasz_scorer: (test=648.824) dbcv_scorer: (test=-0.940) neg_davies_bouldin_scorer: (test=-2.904) silhouette_scorer: (test=0.063) total time=   6.3s
+[CV 1/1] END bisecting_strategy=biggest_inertia, n_clusters=8; calinski_harabasz_scorer: (test=609.870) dbcv_scorer: (test=-0.940) neg_davies_bouldin_scorer: (test=-2.874) silhouette_scorer: (test=0.063) total time=   6.2s
+[CV 1/1] END bisecting_strategy=biggest_inertia, n_clusters=9; calinski_harabasz_scorer: (test=562.034) dbcv_scorer: (test=-0.938) neg_davies_bouldin_scorer: (test=-2.821) silhouette_scorer: (test=0.046) total time=   5.9s
+[CV 1/1] END bisecting_strategy=biggest_inertia, n_clusters=10; calinski_harabasz_scorer: (test=523.063) dbcv_scorer: (test=-0.937) neg_davies_bouldin_scorer: (test=-2.828) silhouette_scorer: (test=0.050) total time=   5.9s
+[CV 1/1] END bisecting_strategy=largest_cluster, n_clusters=4; calinski_harabasz_scorer: (test=972.328) dbcv_scorer: (test=-0.955) neg_davies_bouldin_scorer: (test=-2.469) silhouette_scorer: (test=0.102) total time=   8.7s
+[CV 1/1] END bisecting_strategy=largest_cluster, n_clusters=5; calinski_harabasz_scorer: (test=836.502) dbcv_scorer: (test=-0.954) neg_davies_bouldin_scorer: (test=-2.697) silhouette_scorer: (test=0.086) total time=   7.4s
+[CV 1/1] END bisecting_strategy=largest_cluster, n_clusters=6; calinski_harabasz_scorer: (test=738.416) dbcv_scorer: (test=-0.953) neg_davies_bouldin_scorer: (test=-2.880) silhouette_scorer: (test=0.079) total time=   6.5s
+[CV 1/1] END bisecting_strategy=largest_cluster, n_clusters=7; calinski_harabasz_scorer: (test=650.171) dbcv_scorer: (test=-0.952) neg_davies_bouldin_scorer: (test=-2.809) silhouette_scorer: (test=0.051) total time=   6.1s
+[CV 1/1] END bisecting_strategy=largest_cluster, n_clusters=8; calinski_harabasz_scorer: (test=595.144) dbcv_scorer: (test=-0.950) neg_davies_bouldin_scorer: (test=-2.678) silhouette_scorer: (test=0.036) total time=   5.9s
+[CV 1/1] END bisecting_strategy=largest_cluster, n_clusters=9; calinski_harabasz_scorer: (test=551.675) dbcv_scorer: (test=-0.929) neg_davies_bouldin_scorer: (test=-2.718) silhouette_scorer: (test=0.037) total time=   5.8s
+[CV 1/1] END bisecting_strategy=largest_cluster, n_clusters=10; calinski_harabasz_scorer: (test=535.434) dbcv_scorer: (test=-0.928) neg_davies_bouldin_scorer: (test=-2.708) silhouette_scorer: (test=0.040) total time=   5.7s
+
+Grid Searching DBSCAN
+Fitting 1 folds for each of 20 candidates, totalling 20 fits
+[CV 1/1] END eps=0.05, min_samples=5; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+[CV 1/1] END eps=0.05, min_samples=10; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+[CV 1/1] END eps=0.05, min_samples=20; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+[CV 1/1] END eps=0.05, min_samples=40; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+[CV 1/1] END eps=0.05, min_samples=80; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+[CV 1/1] END eps=0.1, min_samples=5; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+[CV 1/1] END eps=0.1, min_samples=10; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+[CV 1/1] END eps=0.1, min_samples=20; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+[CV 1/1] END eps=0.1, min_samples=40; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+[CV 1/1] END eps=0.1, min_samples=80; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+[CV 1/1] END eps=0.2, min_samples=5; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.6s
+[CV 1/1] END eps=0.2, min_samples=10; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+[CV 1/1] END eps=0.2, min_samples=20; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+[CV 1/1] END eps=0.2, min_samples=40; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+[CV 1/1] END eps=0.2, min_samples=80; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.6s
+[CV 1/1] END eps=0.4, min_samples=5; calinski_harabasz_scorer: (test=4.328) dbcv_scorer: (test=0.465) neg_davies_bouldin_scorer: (test=-1.670) silhouette_scorer: (test=-0.373) total time=   4.9s
+[CV 1/1] END eps=0.4, min_samples=10; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.6s
+[CV 1/1] END eps=0.4, min_samples=20; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+[CV 1/1] END eps=0.4, min_samples=40; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+[CV 1/1] END eps=0.4, min_samples=80; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=   0.5s
+
+Grid Searching OPTICS
+Fitting 1 folds for each of 15 candidates, totalling 15 fits
+[CV 1/1] END min_cluster_size=5, min_samples=5; calinski_harabasz_scorer: (test=6.136) dbcv_scorer: (test=0.101) neg_davies_bouldin_scorer: (test=-1.683) silhouette_scorer: (test=-0.261) total time=  38.4s
+[CV 1/1] END min_cluster_size=5, min_samples=10; calinski_harabasz_scorer: (test=11.791) dbcv_scorer: (test=0.192) neg_davies_bouldin_scorer: (test=-1.845) silhouette_scorer: (test=-0.245) total time=  35.9s
+[CV 1/1] END min_cluster_size=5, min_samples=20; calinski_harabasz_scorer: (test=10.282) dbcv_scorer: (test=0.483) neg_davies_bouldin_scorer: (test=-1.649) silhouette_scorer: (test=-0.378) total time=  34.2s
+[CV 1/1] END min_cluster_size=5, min_samples=40; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=  31.2s
+[CV 1/1] END min_cluster_size=5, min_samples=80; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=  31.3s
+[CV 1/1] END min_cluster_size=20, min_samples=5; calinski_harabasz_scorer: (test=12.766) dbcv_scorer: (test=0.078) neg_davies_bouldin_scorer: (test=-1.954) silhouette_scorer: (test=-0.226) total time=  35.3s
+[CV 1/1] END min_cluster_size=20, min_samples=10; calinski_harabasz_scorer: (test=13.138) dbcv_scorer: (test=0.186) neg_davies_bouldin_scorer: (test=-1.861) silhouette_scorer: (test=-0.299) total time=  34.9s
+[CV 1/1] END min_cluster_size=20, min_samples=20; calinski_harabasz_scorer: (test=12.538) dbcv_scorer: (test=0.484) neg_davies_bouldin_scorer: (test=-1.590) silhouette_scorer: (test=-0.349) total time=  34.5s
+[CV 1/1] END min_cluster_size=20, min_samples=40; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=  31.5s
+[CV 1/1] END min_cluster_size=20, min_samples=80; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=  31.7s
+[CV 1/1] END min_cluster_size=80, min_samples=5; calinski_harabasz_scorer: (test=23.229) dbcv_scorer: (test=0.057) neg_davies_bouldin_scorer: (test=-2.636) silhouette_scorer: (test=-0.283) total time=  34.3s
+[CV 1/1] END min_cluster_size=80, min_samples=10; calinski_harabasz_scorer: (test=14.408) dbcv_scorer: (test=0.078) neg_davies_bouldin_scorer: (test=-2.998) silhouette_scorer: (test=-0.249) total time=  34.1s
+[CV 1/1] END min_cluster_size=80, min_samples=20; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=  31.0s
+[CV 1/1] END min_cluster_size=80, min_samples=40; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=  31.0s
+[CV 1/1] END min_cluster_size=80, min_samples=80; calinski_harabasz_scorer: (test=-1.000) dbcv_scorer: (test=-1.000) neg_davies_bouldin_scorer: (test=-1.000) silhouette_scorer: (test=-1.000) total time=  31.1s
+
+Grid Searching AgglomerativeClustering
+Fitting 1 folds for each of 28 candidates, totalling 28 fits
+[CV 1/1] END linkage=ward, n_clusters=4; calinski_harabasz_scorer: (test=740.840) dbcv_scorer: (test=-0.953) neg_davies_bouldin_scorer: (test=-3.178) silhouette_scorer: (test=0.063) total time=  19.9s
+[CV 1/1] END linkage=ward, n_clusters=5; calinski_harabasz_scorer: (test=653.305) dbcv_scorer: (test=-0.949) neg_davies_bouldin_scorer: (test=-2.669) silhouette_scorer: (test=0.064) total time=  18.9s
+[CV 1/1] END linkage=ward, n_clusters=6; calinski_harabasz_scorer: (test=586.069) dbcv_scorer: (test=-0.921) neg_davies_bouldin_scorer: (test=-2.760) silhouette_scorer: (test=0.043) total time=  18.7s
+[CV 1/1] END linkage=ward, n_clusters=7; calinski_harabasz_scorer: (test=535.543) dbcv_scorer: (test=-0.911) neg_davies_bouldin_scorer: (test=-2.817) silhouette_scorer: (test=0.041) total time=  17.5s
+[CV 1/1] END linkage=ward, n_clusters=8; calinski_harabasz_scorer: (test=495.516) dbcv_scorer: (test=-0.909) neg_davies_bouldin_scorer: (test=-2.860) silhouette_scorer: (test=0.037) total time=  17.7s
+[CV 1/1] END linkage=ward, n_clusters=9; calinski_harabasz_scorer: (test=463.434) dbcv_scorer: (test=-0.901) neg_davies_bouldin_scorer: (test=-2.772) silhouette_scorer: (test=0.028) total time=  17.6s
+[CV 1/1] END linkage=ward, n_clusters=10; calinski_harabasz_scorer: (test=437.020) dbcv_scorer: (test=-0.897) neg_davies_bouldin_scorer: (test=-2.703) silhouette_scorer: (test=0.033) total time=  17.6s
+[CV 1/1] END linkage=complete, n_clusters=4; calinski_harabasz_scorer: (test=278.497) dbcv_scorer: (test=-0.936) neg_davies_bouldin_scorer: (test=-1.049) silhouette_scorer: (test=0.255) total time=  34.1s
+[CV 1/1] END linkage=complete, n_clusters=5; calinski_harabasz_scorer: (test=219.933) dbcv_scorer: (test=-0.923) neg_davies_bouldin_scorer: (test=-1.798) silhouette_scorer: (test=0.241) total time=  33.0s
+[CV 1/1] END linkage=complete, n_clusters=6; calinski_harabasz_scorer: (test=239.054) dbcv_scorer: (test=-0.959) neg_davies_bouldin_scorer: (test=-2.885) silhouette_scorer: (test=0.032) total time=  22.0s
+[CV 1/1] END linkage=complete, n_clusters=7; calinski_harabasz_scorer: (test=234.801) dbcv_scorer: (test=-0.954) neg_davies_bouldin_scorer: (test=-2.996) silhouette_scorer: (test=0.032) total time=  20.4s
+[CV 1/1] END linkage=complete, n_clusters=8; calinski_harabasz_scorer: (test=206.831) dbcv_scorer: (test=-0.953) neg_davies_bouldin_scorer: (test=-2.839) silhouette_scorer: (test=0.028) total time=  20.3s
+[CV 1/1] END linkage=complete, n_clusters=9; calinski_harabasz_scorer: (test=227.810) dbcv_scorer: (test=-0.951) neg_davies_bouldin_scorer: (test=-2.998) silhouette_scorer: (test=0.023) total time=  19.1s
+[CV 1/1] END linkage=complete, n_clusters=10; calinski_harabasz_scorer: (test=206.007) dbcv_scorer: (test=-0.949) neg_davies_bouldin_scorer: (test=-2.863) silhouette_scorer: (test=0.023) total time=  19.6s
+[CV 1/1] END linkage=average, n_clusters=4; calinski_harabasz_scorer: (test=117.445) dbcv_scorer: (test=-0.481) neg_davies_bouldin_scorer: (test=-1.007) silhouette_scorer: (test=0.437) total time=  35.8s
+[CV 1/1] END linkage=average, n_clusters=5; calinski_harabasz_scorer: (test=89.310) dbcv_scorer: (test=-0.481) neg_davies_bouldin_scorer: (test=-1.011) silhouette_scorer: (test=0.418) total time=  35.1s
+[CV 1/1] END linkage=average, n_clusters=6; calinski_harabasz_scorer: (test=72.333) dbcv_scorer: (test=-0.480) neg_davies_bouldin_scorer: (test=-0.918) silhouette_scorer: (test=0.359) total time=  35.5s
+[CV 1/1] END linkage=average, n_clusters=7; calinski_harabasz_scorer: (test=60.688) dbcv_scorer: (test=-0.480) neg_davies_bouldin_scorer: (test=-0.738) silhouette_scorer: (test=0.356) total time=  35.3s
+[CV 1/1] END linkage=average, n_clusters=8; calinski_harabasz_scorer: (test=52.498) dbcv_scorer: (test=-0.480) neg_davies_bouldin_scorer: (test=-0.722) silhouette_scorer: (test=0.356) total time=  35.3s
+[CV 1/1] END linkage=average, n_clusters=9; calinski_harabasz_scorer: (test=46.668) dbcv_scorer: (test=-0.480) neg_davies_bouldin_scorer: (test=-0.770) silhouette_scorer: (test=0.315) total time=  35.3s
+[CV 1/1] END linkage=average, n_clusters=10; calinski_harabasz_scorer: (test=41.862) dbcv_scorer: (test=-0.480) neg_davies_bouldin_scorer: (test=-0.745) silhouette_scorer: (test=0.283) total time=  36.5s
+[CV 1/1] END linkage=single, n_clusters=4; calinski_harabasz_scorer: (test=108.901) dbcv_scorer: (test=0.151) neg_davies_bouldin_scorer: (test=-0.671) silhouette_scorer: (test=0.673) total time=  31.0s
+[CV 1/1] END linkage=single, n_clusters=5; calinski_harabasz_scorer: (test=82.090) dbcv_scorer: (test=0.151) neg_davies_bouldin_scorer: (test=-0.520) silhouette_scorer: (test=0.673) total time=  31.3s
+[CV 1/1] END linkage=single, n_clusters=6; calinski_harabasz_scorer: (test=66.119) dbcv_scorer: (test=0.151) neg_davies_bouldin_scorer: (test=-0.566) silhouette_scorer: (test=0.670) total time=  30.2s
+[CV 1/1] END linkage=single, n_clusters=7; calinski_harabasz_scorer: (test=55.638) dbcv_scorer: (test=0.151) neg_davies_bouldin_scorer: (test=-0.551) silhouette_scorer: (test=0.618) total time=  30.3s
+[CV 1/1] END linkage=single, n_clusters=8; calinski_harabasz_scorer: (test=47.961) dbcv_scorer: (test=0.151) neg_davies_bouldin_scorer: (test=-0.560) silhouette_scorer: (test=0.618) total time=  30.3s
+[CV 1/1] END linkage=single, n_clusters=9; calinski_harabasz_scorer: (test=42.517) dbcv_scorer: (test=-0.133) neg_davies_bouldin_scorer: (test=-0.548) silhouette_scorer: (test=0.399) total time=  31.7s
+[CV 1/1] END linkage=single, n_clusters=10; calinski_harabasz_scorer: (test=38.432) dbcv_scorer: (test=0.032) neg_davies_bouldin_scorer: (test=-0.534) silhouette_scorer: (test=0.392) total time=  30.6s
+
+MiniSom
+n=4 topographic_error=0.5031840695441221 quantization_error=4.319775481148481
+n=5 topographic_error=0.7345597897503285 quantization_error=4.166324117986815
+n=6 topographic_error=0.7433538865864753 quantization_error=4.040977706293996
+n=7 topographic_error=0.7594258566663298 quantization_error=3.878806563870394
+n=8 topographic_error=0.7255635297685232 quantization_error=3.8056341430935525
+n=9 topographic_error=0.7467906600626706 quantization_error=3.7396652858490103
+n=10 topographic_error=0.714747801475791 quantization_error=3.6028731684164548
+
+GuassianMixture
+n=4 AIC=34597.29037059822 BIC=48874.06289508417 score=-1.5481295042251197
+n=5 AIC=-26531.308256554443 BIC=-8683.542705268173 score=1.5914944029391713
+n=6 AIC=-60655.28368889418 BIC=-39236.5251108076 score=3.3662834170066804
+n=7 AIC=-74374.49630985336 BIC=-49384.74470496646 score=4.109799671982885
+n=8 AIC=-120618.61893559388 BIC=-92057.87430390666 score=6.497150456666021
+n=9 AIC=-129413.10391938014 BIC=-97281.3662608926 score=6.99176710398161
+n=10 AIC=-101763.5762542621 BIC=-66060.84556897424 score=5.644474691916613
+
+AutoEncoder_KMeans
+n_clusters=4 silhouette_scorer=0.34153860807418823
+n_clusters=5 silhouette_scorer=0.35522204637527466
+n_clusters=6 silhouette_scorer=0.32254716753959656
+n_clusters=7 silhouette_scorer=0.35579603910446167
+n_clusters=8 silhouette_scorer=0.3495977520942688
+n_clusters=9 silhouette_scorer=0.32952237129211426
+n_clusters=10 silhouette_scorer=0.31795600056648254

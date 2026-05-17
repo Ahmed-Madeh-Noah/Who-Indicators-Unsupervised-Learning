@@ -1,0 +1,16 @@
+[project]
+name = "who-indicators-unsupervised-learning"
+version = "0.1.0"
+description = "Unsupervised machine learning to analyze World Health Organization (WHO) socio-economic and health indicators. Using clustering techniques (like K-Means) and PCA, it categorizes countries to help NGOs strategically identify regions in direst need of humanitarian aid."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "category-encoders>=2.9.0",
+    "hyperimpute>=0.1.17",
+    "minisom>=2.3.6",
+    "pandas>=3.0.3",
+    "requests>=2.34.2",
+    "seaborn>=0.13.2",
+    "streamlit>=1.57.0",
+    "tqdm>=4.67.3",
+]
